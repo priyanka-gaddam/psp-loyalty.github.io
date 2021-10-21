@@ -1,0 +1,52 @@
+/* reward List ----------- */
+.widget .header {
+    display: none;
+}
+
+#reward-list-v2 .rewards {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#reward-list-v2 .rewards .reward {
+    border: none !important;
+    margin: 0px 15px!important;
+    width: auto !important;
+}
+
+#reward-list-v2 .rewards .reward img {
+    display: block !important;
+    margin: auto !important;
+    width: 180px !important;
+    height: 180px !important;
+}
+
+#reward-list-v2 .rewards .reward .content { 
+    width: 200px !important;
+    height: 200px !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+#reward-list-v2 .rewards .reward .content .title { 
+    text-align: left !important;
+}
+
+#reward-list-v2 .rewards .reward .content .title,
+#reward-list-v2 .rewards .reward .content .row {
+    height: initial !important;
+    font-size: 20px !important;
+    font-family: 'Effra Heavy', sans-serif;
+}
+
+#reward-list-v2 .rewards .reward .content .row .frequency-capped,
+#reward-list-v2 .rewards .reward .content .row .locked,
+#reward-list-v2 .rewards .reward .content .row .points {
+    font-size: 18px !important;
+    font-family: 'Effra Heavy', sans-serif;
+    font-weight: bold;
+    float: none !important;
+    margin: 5px 0 5px 0 !important;
+}

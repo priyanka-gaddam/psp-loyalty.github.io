@@ -1,0 +1,28 @@
+.widget .header {
+    display: none !important;
+}
+
+.widget .container { 
+    padding: 10px !important;
+}
+
+#activity-history table th,
+#reward-history-v2 table th {
+    color: black !important;
+    font-size: 18px !important;
+    font-family: 'Effra Heavy', sans-serif !important;
+}
+
+#activity-history table tbody tr td,
+#activity-history table td p, #activity-history table th p,
+p, span {
+    font-size: 16px !important;
+    font-family: 'Effra Medium', sans-serif !important;
+}
+
+#activity-history .btn.show-more {
+    background-color: #FFFFFF !important;
+    border-color: #00AF41 !important;
+    border-radius: 4px !important;
+    color: #00AF41 !important;
+}
